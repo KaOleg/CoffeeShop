@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;500;700&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Merienda;
+}
+.menu {
+    display: flex;
+    position: absolute;
+    margin-top: 30px;
+    align-items: center;
+}
+.container {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.menuBtn {
+    padding: 42px 5px 42px 10px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.menu a {
+    display: flex;
+    margin-right: 40px;
+    color: white;
+}
+.menuBtn {
+    background-color: transparent;
+    padding: 10px 42px;
+    color: white;
+    border: white 1px solid;
+    margin-top: 18px;
+}
+.aboutSection {
+    padding: 79px 0px 101px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.aboutSection > img{
+    margin-right: 79px;
+}
+.sectionTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sectionTitle img {
+    margin-top: 40px;
+    height: 30px;
+    width: 200px;
+}
+.sectionTitle h2 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.aboutSection p {
+    max-width: 589px;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+.cardsContent{
+    background-image: url(../src/images/backCoffee.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    padding: 80px 0px 110px 0px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header img {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.card {
+    color: black;
+    height: 240px;
+    width: 220px;
+    background-color: hsla(0, 0%, 100%, 0.65);
+    border-radius: 8px;
+    padding: 22px;
+    font-size: 13px;
+    margin: 71px;
+}
+.card .money{
+    text-align: right;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    color: black;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.footer .menu {
+    position: static;
+    color: black;
+    margin-bottom: 30px;
+}
+.footer .menu a {
+    color: black;
+}
+.search{
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search p{
+    margin-right: 55px;
+    margin-left: 81px;
+}
+.search button, .search input{
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    outline: none;
+    border: none;
+    padding: 7px 20px 5px 20px;
+    margin-left: 5px;
+}
+.AlotOfCards{
+    display: flex;
+    flex-direction: column;
+    padding-right: 69px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.noTransperent{
+    border-radius: 8px;
+    background: #FFF;
+    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+.noTransperent:hover{
+    filter: drop-shadow(5px 5px 35px rgba(0, 0, 0, 0.25));
+}
+a{
+    text-decoration: none;
+}
+.aboutIt p{
+    text-align: left;
+}
+.aboutIt span{
+    font-weight: 700;
+}
+.aboutIt .price{
+    font-size: 24px;
+}
+.error{
+    text-align: center;
+    margin-top: 30px;
+}
+.error img{
+    width: 100px;
+    height: 100px;
+}
